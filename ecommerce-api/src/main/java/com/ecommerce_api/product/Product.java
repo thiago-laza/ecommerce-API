@@ -35,7 +35,7 @@ public class Product {
     @Size(max = 100)
     private String name;
 
-    @NotBlank
+    
     @NotNull
     @Column(nullable = false)
     @PositiveOrZero
@@ -52,7 +52,7 @@ public class Product {
     @Column(nullable = false)
     private String category;
 
-    @NotBlank
+    
     @NotNull
     @Column(nullable = false)
     private int stock;
